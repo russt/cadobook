@@ -1,0 +1,15 @@
+xx*
+yy*
+zz*
+foo*
+junk*
+/man
+bld*/
+/trash*/
+~*
+*.swp
+LittleBookofCado.doc
+
+#may want to add these later:
+cgsrc/
+examples/

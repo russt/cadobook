@@ -1,0 +1,23 @@
+#source ~/.projectrc_perl5_local
+source ~/.projectrc_perl5.16
+
+source ~/.projectrc_vim
+#remote url:  https:/github.com/russt/cadobook.git
+
+setenv GITROOT /scm/gitroot/remotes/github/cadobook.git
+echo GITROOT is $GITROOT
+
+setenv SRCROOT $PROJECT
+setenv TOOLROOT $HOME/proj/rttl/rtproj/tools
+setenv PERL_LIBPATH ".;$TOOLROOT/lib/cmn;$TOOLROOT/lib/cmn/perl5"
+setenv CG_TEMPLATE_PATH ".;$TOOLROOT/lib/cmn/templates;$TOOLROOT/lib/cmn/templates/java"
+
+alias pull '$TOOLROOT/boot/updateDist'
+alias whattools 'cat $TOOLROOT/bin/CVS/Root'
+alias toolsfrom 'echo Using tools from `whattools`'
+
+toolsfrom
+
+cat << EOF
+This project is to publish "little book of cado" on leanpub.com
+EOF

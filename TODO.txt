@@ -1,0 +1,30 @@
+See Also (vqwiki):  SelfPublishing
+
+========================
+Working on, Mon 11/24/14
+
+Q: how do I get mark-up for book?  when I export, it does not generate a valid file.
+
+Q: how do I convert from word to markup?
+
+
+Progress:
+o created account and "little book of cado" on leanpub.com
+
+========================
+Let's create your first chapter.
+
+The manuscript folder is where you write your book. Let's add some content to it. First, make a file called chapter1.txt. Leanpub books are written in Markdown, so you can use your favourite text editor.
+
+Make the contents of chapter1.txt be the following:
+
+# Chapter 1
+Hello, world!
+Save the file.
+
+Next, we're going to tell Leanpub we want this file in the book. To do this, we add the filename of the new file to the Book.txt file. The Book.txt file is just a list of the files in your book, in the order you want them included.
+
+Create a new file called Book.txt, and add a line containing chapter1.txt to it. It should look like this when you're done:
+
+chapter1.txt
+
